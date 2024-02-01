@@ -88,3 +88,42 @@
   .logo {
     display: flex;
   }
+
+  /* Section */
+  section {
+    background-color: var(--pale-orange);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: var(--fw-700);
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    background-color: var(--pale-orange);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    color: var(--medium-brown);
+  }
+
+  .total {
+    font-weight: var(--fw-700);
+    font-size: 1.5rem;
+    color: var(--dark-brown);
+  }
+
+  .percent {
+    font-weight: var(--fw-700);
+    color: var(--dark-brown);
+  }

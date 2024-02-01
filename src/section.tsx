@@ -1,22 +1,24 @@
+import datajs from '../data.json'
+
 function Section() {
 
     return (
       <section>
-         Spending - Last 7 days
+         <h2>Spending - Last 7 days</h2>
+         <div id="graph">
+      
 
-mon
-tue
-wed
-thu
-fri
-sat
-sun
-
-Total this month
-$478.33
-
-+2.4%
-from last month
+         </div>
+        <footer>
+          <div className="div-total">
+            <p>Total this month</p>
+            <p className="total">$478.33</p>
+          </div>
+          <div>
+            <p className="percent">+2.4%</p>
+            <p>from last month</p>
+          </div>
+        </footer>
       </section>
     )
   }
