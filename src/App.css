@@ -103,6 +103,10 @@
     font-weight: var(--fw-700);
   }
 
+  #myChart {
+    border-bottom: 0.5rem solid blue;
+  }
+
   /* Footer */
   footer {
     display: flex;

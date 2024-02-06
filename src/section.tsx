@@ -1,4 +1,4 @@
-// import datajs from '../data.json'
+import datajs from '../data.json'
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -19,28 +19,28 @@ ChartJS.register(
   Legend
 );
 
-export const options = {
+ const options = {
   responsive: true,
   plugins: {
     legend: {
-      // position: 'top' as const,
+      position: 'top' as const,
     },
-    title: {
-      display: true,
     },
-  },
 };
 
 function Section() {
-  const labels = ['Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'];
+  const day = datajs.map(({day}) => day);
+  const amount = datajs.map(({amount}) => amount);
+  const labels = day;
 
    const data = {
     labels,
     datasets:  [{
       label: '',
-      data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48],
+      data: amount,
       backgroundColor: 'hsl(10, 79%, 65%)'
-    }]
+    }],
+ 
   }
 
  
