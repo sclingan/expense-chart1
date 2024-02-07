@@ -23,9 +23,22 @@ ChartJS.register(
   responsive: true,
   plugins: {
     legend: {
-      position: 'top' as const,
+      display: false
     },
     },
+    scales: {
+      x: {
+        grid: {
+          display: false
+        }
+      },
+      y: {
+        display: false,
+        grid: {
+          display: false,
+        }
+      }
+    }
 };
 
 function Section() {
@@ -36,12 +49,12 @@ function Section() {
    const data = {
     labels,
     datasets:  [{
-      label: '',
       data: amount,
-      backgroundColor: 'hsl(10, 79%, 65%)'
+      backgroundColor: 'hsl(10, 79%, 65%)',
+      // hoverBackgroundColor: 'hsl(186, 34%, 60%)'
+      hoverBackgroundColor: 'hsl(20, 100%, 65%)'
     }],
- 
-  }
+  };
 
  
 
@@ -63,7 +76,6 @@ function Section() {
         </footer>
       </section>
     )
-  }
-  
+    }  
   export default Section
   

@@ -56,6 +56,12 @@
     --ff: 'Dm Sans';
   }
 
+  /* TODO: 
+     fix responsive chart sizes
+     fix spacing on footer
+     fix tooltip
+  */
+
   body {
     display: flex;
     justify-content: center;
@@ -104,7 +110,9 @@
   }
 
   #myChart {
-    border-bottom: 0.5rem solid blue;
+    border-bottom: 0.1rem solid  var(--cream);
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
   }
 
   /* Footer */
@@ -112,13 +120,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
     background-color: var(--pale-orange);
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
-    padding-block: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
     padding-inline: 1rem;
     color: var(--medium-brown);
+  }
+
+  .div-total {
   }
 
   .total {
