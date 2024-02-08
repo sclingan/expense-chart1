@@ -98,8 +98,7 @@
   /* Section */
   section {
     background-color: var(--pale-orange);
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-radius: 0.5rem;
     padding-block: 1rem;
     padding-inline: 1rem;
   }
@@ -118,19 +117,10 @@
   /* Footer */
   footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 3rem;
     background-color: var(--pale-orange);
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
     padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    padding-inline: 1rem;
     color: var(--medium-brown);
-  }
-
-  .div-total {
   }
 
   .total {

@@ -69,7 +69,7 @@ function Section() {
             <p>Total this month</p>
             <p className="total">$478.33</p>
           </div>
-          <div>
+          <div className='div-percent'>
             <p className="percent">+2.4%</p>
             <p>from last month</p>
           </div>
