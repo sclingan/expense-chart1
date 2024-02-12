@@ -56,12 +56,6 @@
     --ff: 'Dm Sans';
   }
 
-  /* TODO: 
-     fix responsive chart sizes
-     fix spacing on footer
-     fix tooltip
-  */
-
   body {
     display: flex;
     justify-content: center;
@@ -121,6 +115,7 @@
     background-color: var(--pale-orange);
     padding-top: 1.5rem;
     color: var(--medium-brown);
+    font-size: 0.9rem;
   }
 
   .total {
@@ -129,7 +124,20 @@
     color: var(--dark-brown);
   }
 
+  .div-percent {
+    padding-top: 0.9rem;
+  }
+
   .percent {
+    display: flex;
     font-weight: var(--fw-700);
     color: var(--dark-brown);
+    justify-content: flex-end;
+  }
+
+  @media(min-width: 50rem) {
+
+   footer {
+    font-size: var(--font-size);
+   }
   }

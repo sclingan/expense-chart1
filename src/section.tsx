@@ -50,8 +50,8 @@ function Section() {
     labels,
     datasets:  [{
       data: amount,
-      backgroundColor: 'hsl(10, 79%, 65%)',
-      // hoverBackgroundColor: 'hsl(186, 34%, 60%)'
+      // backgroundColor: 'hsl(10, 79%, 65%)',
+      backgroundColor: ['hsl(10, 79%, 65%)', 'hsl(10, 79%, 65%)','hsl(186, 34%, 60%)', 'hsl(10, 79%, 65%)','hsl(10, 79%, 65%)','hsl(10, 79%, 65%)','hsl(10, 79%, 65%)'],
       hoverBackgroundColor: 'hsl(20, 100%, 65%)'
     }],
   };
