@@ -4,6 +4,7 @@ function Header() {
 
     return (
       <header>
+        <h1 className='sr-only'>Expense Chart</h1>
         <div>
           <p>My balance</p>
           <p className="balance">$921.48</p>

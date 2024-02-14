@@ -135,6 +135,16 @@
     justify-content: flex-end;
   }
 
+  .sr-only:not(:focus):not(:active) {
+    Clip: rect(0 0 0 0);
+    Clip-path: inset(50%);
+    Height: 1px;
+    Overflow: hidden;
+    Position: absolute;
+    White-space: no wrap;
+    Width: 1px;
+}
+
   @media(min-width: 50rem) {
 
    footer {
