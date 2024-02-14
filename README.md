@@ -16,7 +16,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -36,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://www.frontendmentor.io/solutions/frontend-mentor-expenses-chart-s7YU2jCx1w)
+- Live Site URL: (https://sclingan.github.io/expense-chart1/)
 
 ## My process
 
